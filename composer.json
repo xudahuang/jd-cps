@@ -1,0 +1,22 @@
+{
+    "name": "bigyellow/jd-cps",
+    "description": "This is jd cps php sdk",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "bigyellow",
+            "email": "635766218@qq.com"
+        }
+    ],
+    "require": {},
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.3"
+    }
+}
