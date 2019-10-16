@@ -4,7 +4,7 @@ namespace JdCps\Request;
 /**
  * API: jd.union.open.goods.jingfen.query
  *
- * @author
+ * @author bigyellow
  * @since 1.0, 2019.09.21
  */
 use JdCps\RequestCheckUtil;
@@ -104,9 +104,7 @@ class JdUnionOpenPromotionCommonGetRequest
     public function getApiParas()
     {
         return [
-            'param_json' => json_encode([
-                $this->apiParamsName => $this->apiParas
-            ])
+            $this->apiParamsName => $this->apiParas
         ];
     }
 

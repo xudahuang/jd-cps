@@ -104,9 +104,7 @@ class JdUnionOpenGoodsJingFenQueryRequest
     public function getApiParas()
     {
         return [
-            'param_json' => json_encode([
-                $this->apiParamsName => $this->apiParas
-            ])
+            $this->apiParamsName => $this->apiParas
         ];
     }
 

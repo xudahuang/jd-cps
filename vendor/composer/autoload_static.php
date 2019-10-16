@@ -8,7 +8,11 @@ class ComposerStaticInit77c6392dc9a673a58ffec91511006fb9
 {
     public static $files = array (
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
+        '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
+        'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
+        'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
+        '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -26,10 +30,22 @@ class ComposerStaticInit77c6392dc9a673a58ffec91511006fb9
         ),
         'P' => 
         array (
+            'Psr\\Http\\Message\\' => 17,
             'Prophecy\\' => 9,
+        ),
+        'J' => 
+        array (
+            'JdCps\\' => 6,
+        ),
+        'G' => 
+        array (
+            'GuzzleHttp\\Psr7\\' => 16,
+            'GuzzleHttp\\Promise\\' => 19,
+            'GuzzleHttp\\' => 11,
         ),
         'D' => 
         array (
+            'Dotenv\\' => 7,
             'Doctrine\\Instantiator\\' => 22,
             'DeepCopy\\' => 9,
         ),
@@ -50,9 +66,33 @@ class ComposerStaticInit77c6392dc9a673a58ffec91511006fb9
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-ctype',
         ),
+        'Psr\\Http\\Message\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/http-message/src',
+        ),
         'Prophecy\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpspec/prophecy/src/Prophecy',
+        ),
+        'JdCps\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
+        'GuzzleHttp\\Psr7\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/guzzlehttp/psr7/src',
+        ),
+        'GuzzleHttp\\Promise\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/guzzlehttp/promises/src',
+        ),
+        'GuzzleHttp\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
+        ),
+        'Dotenv\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/vlucas/phpdotenv/src',
         ),
         'Doctrine\\Instantiator\\' => 
         array (
@@ -61,6 +101,16 @@ class ComposerStaticInit77c6392dc9a673a58ffec91511006fb9
         'DeepCopy\\' => 
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
+        ),
+    );
+
+    public static $prefixesPsr0 = array (
+        'P' => 
+        array (
+            'PhpOption\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/phpoption/phpoption/src',
+            ),
         ),
     );
 
@@ -647,6 +697,7 @@ class ComposerStaticInit77c6392dc9a673a58ffec91511006fb9
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit77c6392dc9a673a58ffec91511006fb9::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit77c6392dc9a673a58ffec91511006fb9::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit77c6392dc9a673a58ffec91511006fb9::$prefixesPsr0;
             $loader->classMap = ComposerStaticInit77c6392dc9a673a58ffec91511006fb9::$classMap;
 
         }, null, ClassLoader::class);
