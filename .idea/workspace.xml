@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5280d75-fadf-4e52-86d1-4069d02dc3a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Client.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jd_sdk_php.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jd_sdk_php.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JdCpsClient.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Logger.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Request/JdUnionOpenGoodsJingFenQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Request/JdUnionOpenGoodsJingFenQueryRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Request/JdUnionOpenPromotionCommonGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Request/JdUnionOpenPromotionCommonGetRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ResultSet.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/TestJdUnionOpenGoodsJingFenQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestJdUnionOpenGoodsJingFenQueryRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +65,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jingxp.com" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -130,7 +114,7 @@
       <workItem from="1571052580968" duration="594000" />
       <workItem from="1571117899438" duration="618000" />
       <workItem from="1571131717978" duration="2548000" />
-      <workItem from="1571187290536" duration="22220000" />
+      <workItem from="1571187290536" duration="24014000" />
     </task>
     <servers />
   </component>
